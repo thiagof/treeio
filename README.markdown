@@ -13,12 +13,12 @@ join our mailing list:
 
 Already done:
 =============
+- Django 1.7 support
 - Django 1.6 support
 - Install script for ubuntu
 
 Wishlist:
 =========
-- Django 1.7 support
 - Django 1.8 support
 - Get to 100% test coverage
 - Resolve scrutinizer and landscape issues
@@ -96,7 +96,6 @@ Create a clone of this repository
 4.  Install system prerequisites for image processing module according to [instuctions](https://github.com/python-imaging/Pillow#platform-specific-instructions)
 1.  Install dependencies: `pip install -r requirements.pip`
 2.  ```DJANGO_DIR=`python -c "import django; import os; print os.path.dirname(django.__file__)"` ```
-1.  Run the patch: `python related_fields_patch.py $DJANGO_DIR`
 
 
 Install the database (Example showing MySQL)
